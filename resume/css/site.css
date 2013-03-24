@@ -97,12 +97,16 @@ ul.projects, ul.skills{
   padding: 0 0 0 1em;
 }
 
-ul.projects li.project, ul.skills li.skill{
-  list-style-type: none;
+ul.projects li.project{
+  list-style-type: disc;
+}
+
+ul.skills li.skill{
+  list-style-type: circle;
 }
 
 ul.projects li.project .heading .title-description-container, ul.skills li.skill .heading .title-description-container{
-  margin-top: .25em;
+  margin-top: 1.25em;
 }
 
 ul.projects li.project ul.highlights, ul.skills li.skill ul.highlights{

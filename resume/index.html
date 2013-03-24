@@ -28,8 +28,8 @@
         </section>
         <section>
           <h3>Experience</h3>
-          <ul id="experience" ng-repeat="item in experience.experience">
-            <li class="experience-unit">
+          <ul id="experience">
+            <li class="experience-unit" ng-repeat="item in experience.experience">
               <div class="heading">
                 <div class="left">
                   <div class="employer"><strong class="title">{{item.experience_unit.employer}}</strong></div>
@@ -44,17 +44,13 @@
               </div>
               <br>
               <h4>Skills</h4>
-              <ul class="skills" ng-repeat="skill in item.experience_unit.skills">
-                <li class="skill">{{skill}}</li>
+              <ul class="skills">
+                <li class="skill" ng-repeat="skill in item.experience_unit.skills">{{skill}}</li>
               </ul>
               <h4 ng-hide="item.experience_unit.projects.length == nil">Projects</h4>
-              <ul class="projects" ng-repeat="project in item.experience_unit.projects">
-                <li class="project">
-                  <div class="heading">
-                    <div class="title-description-container">
-                      <strong class="title">{{project.project.title}}</strong> - <span class="description">{{project.project.description}}</span>
-                    </div>
-                  </div>
+              <ul class="projects">
+                <li class="project" ng-repeat="project in item.experience_unit.projects">
+                  <strong class="title">{{project.project.title}}</strong> - <span class="description">{{project.project.description}}</span>
                 </li>
               </ul>
               <hr>
@@ -80,7 +76,14 @@
         <section>
           <div id="education">
             <h3>Education</h3>
-            {{education}}
+            <div ng-repeat="education in education.education">
+              <div class="left">{{education.education_unit.end}}</div>
+              <div class="right">{{education.education_unit.location}}</div>
+              <div class="align-center"><strong>{{education.education_unit.school}}</strong></div>
+              <div class="left"><strong>{{education.education_unit.degree}}</strong></div> 
+              <div class="right">{{education.education_unit.program}}</div>
+              <br>
+            </div>
           </div>
         </section>
       </div>
