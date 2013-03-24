@@ -3,11 +3,11 @@ igResume.controller('MainCtrl', function($scope, $http){
     $scope.experience = data;
   });
 
-  $http.get("data/laguages.json").success(function(data){
+  $http.get("data/languages.json").success(function(data){
     $scope.languages = data;
   });
 
-  // $http.get("data/education.json").success(function(data){
-  //   $scope.education = data;
-  // });
+  $http.get("data/education.json").success(function(data){
+    $scope.education = data;
+  });
 });
