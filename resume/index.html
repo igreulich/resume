@@ -21,9 +21,9 @@
         </header>
         <section id="links">
           <ul>
-            <li>Save a Copy</li>
-            <li>Github</li>
-            <li>Stack Overflow</li>
+            <li><a href="">Save a Copy</a></li>
+            <li><a href="https://github.com/igreulich">Github</a></li>
+            <li><a href="http://stackoverflow.com/users/1200079/igreulich">Stack Overflow</a></li>
           </ul>
         </section>
         <section>
@@ -50,7 +50,10 @@
               <h4 ng-hide="item.experience_unit.projects.length == nil">Projects</h4>
               <ul class="projects">
                 <li class="project" ng-repeat="project in item.experience_unit.projects">
-                  <strong class="title">{{project.project.title}}</strong> - <span class="description">{{project.project.description}}</span>
+                  <strong class="title">{{project.project.title}}</strong>
+                  <ul>
+                    <li><span class="description">{{project.project.description}}</span></li>
+                  </ul>
                 </li>
               </ul>
               <hr>

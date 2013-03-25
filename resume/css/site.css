@@ -1,8 +1,5 @@
-@font-face {
-  font-family: "Average";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Average-Regular.ttf") format("truetype");
+*{
+  font-family: "Helvetica";
 }
 
 .left{
@@ -97,8 +94,8 @@ ul.projects, ul.skills{
   padding: 0 0 0 1em;
 }
 
-ul.projects li.project{
-  list-style-type: disc;
+ul.projects li.project, ul.projects li.project ul{
+  list-style-type: none;
 }
 
 ul.skills li.skill{
