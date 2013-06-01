@@ -18,6 +18,19 @@
         "projects": [
           {
             "project": {
+              "title": "EireneRx",
+              "description": "Medication Management and ePrescribing for the Elderly",
+              "link": "http://www.eirenerx.com"
+            }
+          },
+          {
+            "project" {
+              "title": "Adherance",
+              "description": ""
+            }
+          },
+          {
+            "project": {
               "title": "NiaRx",
               "description": "eHR Web Application for Pharmacy Students and Pharmacists",
               "link": "http://www.niarx.com"
@@ -28,13 +41,6 @@
               "title": "CareTransitions",
               "description": "Patient Care Transition Management",
               "link": ""
-            }
-          },
-          {
-            "project": {
-              "title": "EireneRx",
-              "description": "Medication Management and ePrescribing for the Elderly",
-              "link": "http://www.eirenerx.com"
             }
           }
         ]
@@ -66,9 +72,16 @@
           },
           {
             "project": {
-              "title": "Angular-Typeahead",
+              "title": "Angular Character Limit",
+              "description": "Angularjs Directive to limit the number of characters allowed in a text field",
+              "link": "http://igreulich.github.io/angular-charlimit/"
+            }
+          },
+          {
+            "project": {
+              "title": "Angular Typeahead",
               "description": "Directive for Using Bootstrap Typeahead Plugin with Angularjs",
-              "link": "http://igreulich.github.com/angular-typeahead/"
+              "link": "http://igreulich.github.io/angular-typeahead/"
             }
           },
           {
@@ -96,7 +109,7 @@
             "project": {
               "title": "Sing",
               "description": "Rails-like Generator for Sinatra Apps",
-              "link": "http://igreulich.github.com/sing/"
+              "link": "http://igreulich.github.io/sing/"
             }
           }
         ]
