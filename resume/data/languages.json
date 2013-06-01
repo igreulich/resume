@@ -138,6 +138,12 @@
               },
               {
                 "name": "sugar.js"
+              },
+              {
+                "name": "Angular-ui"
+              },
+              {
+                "name": "Angular-bootstrap"
               }
             ]
           }
