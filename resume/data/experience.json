@@ -1,7 +1,7 @@
 {
   "experience": [
     {
-      "experience_unit" :{
+      "experience_unit": {
         "employer": "Benefitfocus",
         "location": "Charleston, SC",
         "title": "Interaction Engineer",
@@ -17,14 +17,14 @@
         "projects": [
           {
             "project": {
-              "title": "Group Shopping"
+              "title": "Group Shopping",
               "description": "Marketplace for a representative of a business to shop for group insurance plance to offer their employees"
-            },
-            {
-              "project" {
-                "title": "eDirect",
-                "description": "Marketplace for an individual to purchase private insurance direct from carriers, or ACA complaint marketplace"
-              }
+            }
+          },
+          {
+            "project": {
+              "title": "eDirect",
+              "description": "Marketplace for an individual to purchase private insurance direct from carriers, or ACA complaint marketplace"
             }
           }
         ]
@@ -102,7 +102,7 @@
           },
           {
             "project": "Sports Bingo",
-            "description": "A sports based, and themed, real-time bingo game"
+            "description": "A sports based, and themed, real-time bingo game",
             "link": "http://playsportsbingo.com/"
           },
           {
@@ -386,3 +386,4 @@
     }
   ]
 }
+
