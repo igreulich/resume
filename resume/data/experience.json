@@ -1,15 +1,45 @@
 {
   "experience": [
     {
+      "experience_unit" :{
+        "employer": "Benefitfocus",
+        "location": "Charleston, SC",
+        "title": "Interaction Engineer",
+        "start": "September 2013",
+        "end": "Current",
+        "skills": [
+          "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience, and Administration",
+          "Implement carrier specific private label branding to white lable platform applications",
+          "Use JavaScript, Nodejs, Backbonejs, Dustjs, Less, and HTML/CSS languages, markup and frameworks",
+          "Use Behavior and Test Driven Design principles, in an Agile workflow",
+          "Version control system set up and maintenance, using Git"
+        ],
+        "projects": [
+          {
+            "project": {
+              "title": "Group Shopping"
+              "description": "Marketplace for a representative of a business to shop for group insurance plance to offer their employees"
+            },
+            {
+              "project" {
+                "title": "eDirect",
+                "description": "Marketplace for an individual to purchase private insurance direct from carriers, or ACA complaint marketplace"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
       "experience_unit": {
         "employer": "Jack Russell Software",
         "division": "CareKinesis",
-        "location": "Charleston, SC",
+        "location": "Mount Pleasant, SC",
         "title": "Programmer/Analyst",
         "start": "December 2011",
-        "end": "Current",
+        "end": "August 2013",
         "skills": [
-          "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience Data Storage, and Administration",
+          "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience, Data Storage, and Administration",
           "Use Ruby, Ruby on Rails, HAML/SASS, CoffeeScript, JavaScript, AngularJS, and HTML/CSS languages, markup and frameworks",
           "MySQL, CouchDB, MongoDB data-stores",
           "Use Behavior and Test Driven Design principles, in an Agile workflow",
@@ -56,7 +86,7 @@
         "skills": [
           "Design, develop, implement, and maintain web sites and web applications, including User Interface, User Experience, Data Storage, and Administration",
           "Use Ruby, HTML/HAML, SASS/CSS, Coffeescript/JavaScript, PHP, ASP.Net, C# and Java Server Pages (JSP) languages and markup",
-          "Use Rails, Angular.js, jQuery, jQuery-ui, Underscore libraries and frameworks",
+          "Use Rails, Nodejs, Angularjs, Backbonejs, jQuery, jQuery-ui, Underscore libraries and frameworks",
           "Use MySQL, PostgreSQL, and MS SQL Server 2005 data-stores",
           "Design and develop Wordpress themes and plug-ins",
           "Manage Google Ad-Words campaigns",
@@ -65,50 +95,62 @@
         "projects": [
           {
             "project": {
+              "title": "Kitchen Ember",
+              "description": "Food blog of Jessica Greulich",
+              "link": "http://www.kitchenember.com"
+            }
+          },
+          {
+            "project": "Sports Bingo",
+            "description": "A sports based, and themed, real-time bingo game"
+            "link": "http://playsportsbingo.com/"
+          },
+          {
+            "project": {
               "title": "www.greulich.me",
-              "description": "Personal Website, Blog, and Portfolio",
+              "description": "Personal website, blog, and portfolio",
               "link": "http://www.greulich.me"
             }
           },
           {
             "project": {
               "title": "Angular Character Limit",
-              "description": "Angularjs Directive to limit the number of characters allowed in a text field",
+              "description": "Angularjs directive to limit the number of characters allowed in a text field",
               "link": "http://igreulich.github.io/angular-charlimit/"
             }
           },
           {
             "project": {
               "title": "Angular Typeahead",
-              "description": "Directive for Using Bootstrap Typeahead Plugin with Angularjs",
+              "description": "Angularjs directive to use Twitter's Bootstrap Typeahead plugin",
               "link": "http://igreulich.github.io/angular-typeahead/"
             }
           },
           {
             "project": {
               "title": "Ticket to Ride Counter",
-              "description": "A Point Calculator for the Ticket to Ride Boardgame",
+              "description": "A point calculator for the Ticket to Ride boardgame",
               "link": "http://www.t2r-counter.com/"
             }
           },
           {
             "project": {
               "title": "Tim Larkin for Congress",
-              "description": "Campaign Website for Tim Larkin for Congress",
+              "description": "Campaign website for Tim Larkin for Congress",
               "link": "http://www.larkinforcongress.com/"
             }
           },
           {
             "project": {
               "title": "Kardashian Counter",
-              "description": "Kardasian Anniversary Calculator",
+              "description": "Kardasian anniversary calculator",
               "link": "https://kardashian-anniversary.heroku.com/"
             }
           },
           {
             "project": {
               "title": "Sing",
-              "description": "Rails-like Generator for Sinatra Apps",
+              "description": "Rails-like generator for Sinatra apps",
               "link": "http://igreulich.github.io/sing/"
             }
           }
@@ -173,7 +215,7 @@
           },
           {
             "project": {
-              "title": "My Charleston MAgazine",
+              "title": "My Charleston Magazine",
               "description": "The Post and Courier's Guide to Life in the Lowcountry",
               "link": "http://www.mycharlestononline.com/"
             }
