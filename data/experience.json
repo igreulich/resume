@@ -7,7 +7,7 @@
         "title": "Senior Software Engineer",
         "start": "July 2014",
         "end": "Current",
-        "skils": [
+        "skills": [
           "Design, develop, implement real estate web applications, focusing on user interface, user experience",
           "Use JavaScript, Angular, jQuery Mobile, Mustache, Less, and HTML/CSS languages, markup and frameworks",
           "Use Behavior and Test Driven Design principles, in a Khan Bhan workflow",
@@ -19,6 +19,8 @@
               "title": "BoomTown LMS",
               "description": "Lead managment system and contact relationship managment system for real estate brokers and agents"
             },
+          },
+          {
             "project": {
               "title": "Boomstrap",
               "description": "Bootstrap based component and pattern library"
