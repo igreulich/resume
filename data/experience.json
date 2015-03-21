@@ -2,11 +2,38 @@
   "experience": [
     {
       "experience_unit": {
+        "employer": "BoomTown",
+        "location": "Charleston, SC",
+        "title": "Senior Software Engineer",
+        "start": "July 2014",
+        "end": "Current",
+        "skils": [
+          "Design, develop, implement real estate web applications, focusing on user interface, user experience",
+          "Use JavaScript, Angular, jQuery Mobile, Mustache, Less, and HTML/CSS languages, markup and frameworks",
+          "Use Behavior and Test Driven Design principles, in a Khan Bhan workflow",
+          "Version control system set up and maintenance, using Git"
+        ],
+        "projects": [
+          {
+            "project": {
+              "title": "BoomTown LMS",
+              "description": "Lead managment system and contact relationship managment system for real estate brokers and agents"
+            },
+            "project": {
+              "title": "Boomstrap",
+              "description": "Bootstrap based component and pattern library"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "experience_unit": {
         "employer": "Benefitfocus",
         "location": "Charleston, SC",
         "title": "Interaction Engineer",
         "start": "September 2013",
-        "end": "Current",
+        "end": "June 2014",
         "skills": [
           "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience, and Administration",
           "Implement carrier specific private label branding to white lable platform applications",
