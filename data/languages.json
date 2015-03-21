@@ -4,7 +4,7 @@
       "language": {
         "name": "Ruby",
         "versions": [
-          "MRI (v1.8.7 - v1.9.3)",
+          "MRI (v1.8.7 - v2.x)",
           "REE"
         ],
         "categories": [
@@ -13,7 +13,7 @@
             "libraries": [
               {
                 "name": "Rails",
-                "versions": "2.3.x - 3.2.x"
+                "versions": "2.3.x - 4.x"
               },
               {
                 "name": "Sinatra"
@@ -61,19 +61,7 @@
             "name": "Miscellaneous",
             "libraries": [
               {
-                "name": "active_record"
-              },
-              {
                 "name": "devise"
-              },
-              {
-                "name": "haml"
-              },
-              {
-                "name": "sass"
-              },
-              {
-                "name": "rake"
               },
               {
                 "name": "will_paginate"
@@ -109,22 +97,29 @@
                 "name": "Nodejs",
                 "versions": "0.6.x - 0.10.x"
               }
+              {
+                "name": "Iojs",
+                "versions": "1.x"
+              }
             ]
           },
           {
             "name": "Frameworks",
             "libraries": [
               {
-                "name": "Angularjs"
+                "name": "Angular"
               },
               {
-                "name": "Backbonejs"
+                "name": "React"
               },
               {
-                "name": "Emberjs"
+                "name": "Backbone"
               },
               {
                 "name": "Sencha Touch"
+              },
+              {
+                "name": "jQuery Mobile"
               }
             ]
           },
@@ -133,6 +128,9 @@
             "libraries": [
               {
                 "name": "Jasmine"
+              },
+              {
+                "name": "Mocha"
               }
             ]
           },
@@ -146,35 +144,29 @@
                 "name": "jQuery UI"
               },
               {
-                "name": "Underscore.js"
+                "name": "underscore / lodash"
               },
               {
-                "name": "sugar.js"
+                "name": "sugar"
               },
               {
-                "name": "Angular-ui"
+                "name": "AngularUi"
               },
               {
-                "name": "Angular-bootstrap"
+                "name": "Angularstrap"
+              },
+              {
+                "name": "ui-router"
+              },
+              {
+                "name": "dust"
+              },
+              {
+                "name": "mustache"
               }
             ]
           }
         ]
-      }
-    },
-    {
-      "language": {
-        "name": "ASP.Net"
-      }
-    },
-    {
-      "language": {
-        "name": "C"
-      }
-    },
-    {
-      "language": {
-        "name": "COBOL"
       }
     },
     {
@@ -189,11 +181,6 @@
     },
     {
       "language": {
-        "name": "C#"
-      }
-    },
-    {
-      "language": {
         "name": "HAML"
       }
     },
@@ -204,22 +191,12 @@
     },
     {
       "language": {
-        "name": "Java"
+        "name": "LESS"
       }
     },
     {
       "language": {
-        "name": "PHP"
-      }
-    },
-    {
-      "language": {
-        "name": "SASS"
-      }
-    },
-    {
-      "language": {
-        "name": "VisualBasic"
+        "name": "SASS / SCSS"
       }
     }
   ]
