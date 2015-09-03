@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "My resume as an SPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igreulich/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "job",
+    "experience",
+    "react"
+  ],
+  "author": "Ian Greulich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igreulich/resume/issues"
+  },
+  "homepage": "https://github.com/igreulich/resume"
+}
