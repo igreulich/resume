@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/igreulich/resume/issues"
   },
-  "homepage": "https://github.com/igreulich/resume"
+  "homepage": "https://github.com/igreulich/resume",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-gh-pages": "^0.5.2",
+    "react": "^0.13.3",
+    "webpack": "^1.12.1"
+  }
 }
