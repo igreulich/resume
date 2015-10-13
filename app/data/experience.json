@@ -107,7 +107,7 @@
     },
     {
       "experience_unit": {
-        "employer": "Ian Greulich Online",
+        "employer": "Greulich Online",
         "location": "Charleston, SC",
         "title": "Web Developer/Owner",
         "start": "January 2008",
@@ -124,28 +124,16 @@
         "projects": [
           {
             "project": {
-              "title": "Kitchen Ember",
-              "description": "Food blog of Jessica Greulich",
-              "link": "http://www.kitchenember.com"
-            }
-          },
-          {
-            "project": "Sports Bingo",
-            "description": "A sports based, and themed, real-time bingo game",
-            "link": "http://playsportsbingo.com/"
-          },
-          {
-            "project": {
-              "title": "www.greulich.me",
-              "description": "Personal website, blog, and portfolio",
-              "link": "http://www.greulich.me"
-            }
-          },
-          {
-            "project": {
               "title": "Angular Character Limit",
               "description": "Angularjs directive to limit the number of characters allowed in a text field",
               "link": "http://igreulich.github.io/angular-charlimit/"
+            }
+          },
+          {
+            "project": {
+              "title": "Angular Truncate",
+              "description": "An angular filter to truncate strings.",
+              "link": "http://igreulich.github.io/angular-truncate/"
             }
           },
           {
@@ -164,13 +152,6 @@
           },
           {
             "project": {
-              "title": "Tim Larkin for Congress",
-              "description": "Campaign website for Tim Larkin for Congress",
-              "link": "http://www.larkinforcongress.com/"
-            }
-          },
-          {
-            "project": {
               "title": "Kardashian Counter",
               "description": "Kardasian anniversary calculator",
               "link": "https://kardashian-anniversary.heroku.com/"
@@ -181,6 +162,25 @@
               "title": "Sing",
               "description": "Rails-like generator for Sinatra apps",
               "link": "http://igreulich.github.io/sing/"
+            }
+          },
+          {
+            "project": "Sports Bingo",
+            "description": "A sports based, and themed, real-time bingo game",
+            "link": "http://playsportsbingo.com/"
+          },
+          {
+            "project": {
+              "title": "Kitchen Ember",
+              "description": "Food blog of Jessica Greulich",
+              "link": "http://www.kitchenember.com"
+            }
+          },
+          {
+            "project": {
+              "title": "Tim Larkin for Congress",
+              "description": "Campaign website for Tim Larkin for Congress",
+              "link": "http://www.larkinforcongress.com/"
             }
           }
         ]
