@@ -12,74 +12,10 @@
             "name": "Frameworks",
             "libraries": [
               {
-                "name": "Rails",
-                "versions": "2.3.x - 4.x"
+                "name": "Rails"
               },
               {
                 "name": "Sinatra"
-              }
-            ]
-          },
-          {
-            "name": "Testing",
-            "libraries": [
-              {
-                "name": "rspec"
-              },
-              {
-                "name": "cucumber"
-              },
-              {
-                "name": "capybara"
-              }
-            ]
-          },
-          {
-            "name": "Persistence",
-            "libraries": [
-              {
-                "name": "active_record"
-              },
-              {
-                "name": "sequel"
-              },
-              {
-                "name": "mysql, mysql2"
-              },
-              {
-                "name": "couchrest_model"
-              },
-              {
-                "name": "couchrest"
-              },
-              {
-                "name": "dalli"
-              }
-            ]
-          },
-          {
-            "name": "Miscellaneous",
-            "libraries": [
-              {
-                "name": "devise"
-              },
-              {
-                "name": "will_paginate"
-              },
-              {
-                "name": "workflow"
-              },
-              {
-                "name": "cancan"
-              },
-              {
-                "name": "redcarpet"
-              },
-              {
-                "name": "aws-s3"
-              },
-              {
-                "name": "dynamic-form"
               }
             ]
           }
@@ -94,12 +30,10 @@
             "name": "Servers",
             "libraries": [
               {
-                "name": "Nodejs",
-                "versions": "0.6.x - 0.10.x"
+                "name": "Node"
               },
               {
-                "name": "Iojs",
-                "versions": "1.x"
+                "name": "Iojs"
               }
             ]
           },
@@ -107,10 +41,10 @@
             "name": "Frameworks",
             "libraries": [
               {
-                "name": "Angular"
+                "name": "React"
               },
               {
-                "name": "React"
+                "name": "Angular"
               },
               {
                 "name": "Backbone"
@@ -122,81 +56,8 @@
                 "name": "jQuery Mobile"
               }
             ]
-          },
-          {
-            "name": "Testing",
-            "libraries": [
-              {
-                "name": "Jasmine"
-              },
-              {
-                "name": "Mocha"
-              }
-            ]
-          },
-          {
-            "name": "Libraries",
-            "libraries": [
-              {
-                "name": "jQuery"
-              },
-              {
-                "name": "jQuery UI"
-              },
-              {
-                "name": "underscore / lodash"
-              },
-              {
-                "name": "sugar"
-              },
-              {
-                "name": "AngularUi"
-              },
-              {
-                "name": "Angularstrap"
-              },
-              {
-                "name": "ui-router"
-              },
-              {
-                "name": "dust"
-              },
-              {
-                "name": "mustache"
-              }
-            ]
           }
         ]
-      }
-    },
-    {
-      "language": {
-        "name": "Coffeescript"
-      }
-    },
-    {
-      "language": {
-        "name": "CSS"
-      }
-    },
-    {
-      "language": {
-        "name": "HAML"
-      }
-    },
-    {
-      "language": {
-        "name": "HTML"
-      }
-    },
-    {
-      "language": {
-        "name": "LESS"
-      }
-    },
-    {
-      "language": {
-        "name": "SASS / SCSS"
       }
     }
   ]
