@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "My resume as an SPA",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,28 @@
   },
   "homepage": "https://github.com/igreulich/resume",
   "devDependencies": {
-    "babel": "^5.8.23",
+    "babel": "^5.8.35",
+    "babel-core": "^6.5.2",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
     "browser-sync": "^2.9.1",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.1",
+    "eslint": "^2.2.0",
+    "eslint-plugin-react": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^5.3.0",
     "gulp-gh-pages": "^0.5.2",
-    "react": "^0.13.3",
-    "webpack": "^1.12.1"
+    "gulp-less": "^3.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "gzip-size": "^3.0.0",
+    "pretty-bytes": "^3.0.1",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   }
 }
