@@ -38,7 +38,6 @@
     "gulp-gh-pages": "^0.5.2",
     "gulp-less": "^3.0.5",
     "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.3.5",
     "gzip-size": "^3.0.0",
     "pretty-bytes": "^3.0.1",
     "webpack": "^1.12.14"

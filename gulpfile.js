@@ -82,7 +82,7 @@ gulp.task('react:watch', function() {
 gulp.task('styles', function() {
   const less = require('gulp-less');
 
-  gulp.src('./app/styles/less/**/*.less')
+  return gulp.src('./app/styles/less/**/*.less')
     .pipe(less())
     .pipe(gulp.dest('./app/styles/dist'));
 });
