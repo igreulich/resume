@@ -3,7 +3,7 @@
 const gulp  = require('gulp');
 const gutil = require('gulp-util');
 
-gulp.task('script', function(callback) {
+gulp.task('scripts', function(callback) {
   const webpack     = require('webpack');
   const fs          = require('fs');
   const path        = require('path');
@@ -39,7 +39,7 @@ gulp.task('script', function(callback) {
       files.forEach(function(file) {
         if (file.indexOf('.js') !== -1 && file.indexOf('.js') + 3 === file.length) {
           gutil.log(file + ': ' + prettyBytes(
-            gzipSize.sync(fs.readFileSync(path.resolve(__dirname, '../admin/scripts/lite/', file)))
+            gzipSize.sync(fs.readFileSync(path.resolve(__dirname, './app/scripts/dist/', file)))
           ));
         }
       });
@@ -117,9 +117,10 @@ gulp.task('server', function() {
     './*.html',
     './scripts/dist/vendor.bundle.js',
     './scripts/dist/app.js',
-    './styles/styles.css'
+    './styles/dist/styles.css'
   ], {cwd: 'app'}, reload);
 });
 
+gulp.task('dev', ['scripts:watch', 'styles:watch', 'server']);
 gulp.task('build', ['scripts', 'styles']);
 gulp.task('default', ['build']);
