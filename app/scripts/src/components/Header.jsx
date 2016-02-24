@@ -5,7 +5,7 @@ export default React.createClass({
 
   render() {
     return (
-      <header>
+      <header className="header">
         <div className="name">Ian Greulich</div>
         <div className="description">Web Developer</div>
       </header>

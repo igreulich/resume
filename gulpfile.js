@@ -3,7 +3,7 @@
 const gulp  = require('gulp');
 const gutil = require('gulp-util');
 
-gulp.task('react', function(callback) {
+gulp.task('script', function(callback) {
   const webpack     = require('webpack');
   const fs          = require('fs');
   const path        = require('path');
@@ -50,7 +50,7 @@ gulp.task('react', function(callback) {
   });
 });
 
-gulp.task('react:watch', function() {
+gulp.task('scripts:watch', function() {
   const webpack     = require('webpack');
   let webpackConfig = require('./webpack.config.js');
 
@@ -80,10 +80,22 @@ gulp.task('react:watch', function() {
 });
 
 gulp.task('styles', function() {
-  const less = require('gulp-less');
+  const less         = require('gulp-less');
+  const lpAutoprefix = require('less-plugin-autoprefix');
+  const lpNPMImport  = require('less-plugin-npm-import');
+  const sourcemaps   = require('gulp-sourcemaps');
+  const minify       = require('gulp-cssnano');
 
-  return gulp.src('./app/styles/less/**/*.less')
-    .pipe(less())
+  const autoprefix = new lpAutoprefix({browsers: ['last 2 versions']});
+  const npmImport  = new lpNPMImport();
+
+  return gulp.src('./app/styles/less/styles.less')
+    .pipe(sourcemaps.init())
+    .pipe(less({
+      plugins: [npmImport, autoprefix]
+    }))
+    .pipe(minify())
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('./app/styles/dist'));
 });
 
@@ -102,12 +114,12 @@ gulp.task('server', function() {
   });
 
   gulp.watch([
-    '*.html',
-    'scripts/dist/vendor.bundle.js',
-    'scripts/dist/app.js',
-    'stylesheets/vendor.css',
-    'stylesheets/app.css'
+    './*.html',
+    './scripts/dist/vendor.bundle.js',
+    './scripts/dist/app.js',
+    './styles/styles.css'
   ], {cwd: 'app'}, reload);
 });
 
-gulp.task('build', ['react', 'styles'])
+gulp.task('build', ['scripts', 'styles']);
+gulp.task('default', ['build']);

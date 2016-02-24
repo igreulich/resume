@@ -56,7 +56,7 @@ webpackJsonp([1],{
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'header',
-	      null,
+	      { className: 'header' },
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'name' },
