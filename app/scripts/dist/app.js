@@ -60,12 +60,20 @@ webpackJsonp([1],{
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'name' },
-	        'Ian Greulich'
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Ian Greulich'
+	        )
 	      ),
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'description' },
-	        'Web Developer'
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'Web Developer'
+	        )
 	      )
 	    );
 	  }

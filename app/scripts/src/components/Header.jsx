@@ -6,8 +6,12 @@ export default React.createClass({
   render() {
     return (
       <header className="header">
-        <div className="name">Ian Greulich</div>
-        <div className="description">Web Developer</div>
+        <div className="name">
+          <h1>Ian Greulich</h1>
+        </div>
+        <div className="description">
+          <h3>Web Developer</h3>
+        </div>
       </header>
     );
   }
