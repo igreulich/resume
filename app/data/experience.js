@@ -1,5 +1,6 @@
 export const experience = [{
   employer: "BoomTown",
+  link: "http://www.boomtownroi.com",
   location: "Charleston, SC",
   title: "Senior Software Engineer",
   start: "July 2014",
@@ -10,6 +11,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in a Khan Bhan workflow",
     "Version control system set up and maintenance, using Git"
   ],
+  technologies: [],
   projects: [{
     title: "BoomTown LMS",
     description: "Lead managment system and contact relationship managment system for real estate brokers and agents"
@@ -18,6 +20,7 @@ export const experience = [{
     description: "Bootstrap based component and pattern library"
   }]}, {
   employer: "Benefitfocus",
+  link: '',
   location: "Charleston, SC",
   title: "Interaction Engineer",
   start: "September 2013",
@@ -29,6 +32,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in an Agile workflow",
     "Version control system set up and maintenance, using Git"
   ],
+  technologies: [],
   projects: [{
     title: "Group Shopping",
     description: "Marketplace for a representative of a business to shop for group insurance plance to offer their employees"
@@ -37,6 +41,7 @@ export const experience = [{
     description: "Marketplace for an individual to purchase private insurance direct from carriers, or ACA complaint marketplace"
   }]}, {
   employer: "Jack Russell Software",
+  link: '',
   division: "CareKinesis",
   location: "Mount Pleasant, SC",
   title: "Programmer/Analyst",
@@ -49,6 +54,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in an Agile workflow",
     "Version control system set up and maintenance, using Git"
   ],
+  technologies: [],
   projects: [{
     title: "EireneRx",
     description: "Medication Management and ePrescribing for the Elderly",
@@ -64,6 +70,7 @@ export const experience = [{
     description: "Patient Care Transition Management",
   }]}, {
   employer: "Greulich Online",
+  link: '',
   location: "Charleston, SC",
   title: "Web Developer/Owner",
   start: "January 2008",
@@ -77,6 +84,7 @@ export const experience = [{
     "Manage Google Ad-Words campaigns",
     "Technical and 'How-to' document creation"
   ],
+  technologies: [],
   projects: [{
     title: "Angular Character Limit",
     description: "Angularjs directive to limit the number of characters allowed in a text field",
@@ -111,6 +119,7 @@ export const experience = [{
     link: "https://larkin-congress.herokuapp.com/"
   }]}, {
   employer: "Evening Post Interactive",
+  link: '',
   division: "Evening Post Publishing, The Post and Courier",
   location: "Charleston, SC",
   title: "Project Manager",
@@ -128,6 +137,7 @@ export const experience = [{
     "Oversee development team, assign projects, and time-lines",
     "Coordinate projects across multiple vendors, both internal and external"
   ],
+  technologies: [],
   projects: [{
     title: "The Post and Courier",
     description: "The Post and Courier Newspaper Website",
@@ -222,6 +232,7 @@ export const experience = [{
     link: "http://www.clemmonscourier.net/"
   }]}, {
   employer: "Leveraged Media",
+  link: '',
   location: "Columbia, SC",
   title: "Web Developer",
   start: "October 2009",
@@ -234,8 +245,10 @@ export const experience = [{
     "Server setup and maintenance",
     "Technical and 'How-to' document creation",
     "Use MySQL data-store"
-  ]}, {
+  ],
+  technologies: []}, {
   employer: "University of South Carolina",
+  link: '',
   location: "Columbia, SC",
   title: "Research Assistant",
   start: "June 2009",
@@ -246,6 +259,7 @@ export const experience = [{
     "Use MS SQL Server data-store",
     "Use Visual Studio Pro 2008 and Expressions Studio development environments"
   ],
+  technologies: [],
   projects: [{
     title: "Virtual Test Bed",
     description: "Virtual Test Bed; A Virtual Prototyping Solution for Large Scale, Multi-Disciplined Dynamic Systems",

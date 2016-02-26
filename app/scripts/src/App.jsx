@@ -11,7 +11,7 @@ let App = React.createClass({
 
   render() {
     const _renderJob = (job, index) => {
-      return (<Job key={index} />);
+      return (<Job key={index} job={job} />);
     };
 
     return (
