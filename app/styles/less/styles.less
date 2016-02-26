@@ -1,4 +1,4 @@
-@import (inline) "npm://purecss";
+@import (inline) "npm://purecss/build/pure.css";
 @import (inline) "npm://purecss/build/grids-responsive.css";
 
 *, *:before, *:after {
@@ -57,6 +57,14 @@ img {
 .card.company-card {
   height: 160px;
   margin-bottom: 0;
+}
+
+.card.technology-card {
+  height: 40px;
+  min-width: 150px;
+  display: inline-block;
+  color: #263238;
+  margin: 8px
 }
 
 .card {
@@ -129,4 +137,26 @@ img {
 
 .technology-card-list {
   margin: 16px;
+}
+
+.technology-card__image {
+  float: left;
+  width: 40px;
+  height: 40px
+}
+
+.technology-card__info {
+  position: relative;
+  margin-left: 40px;
+  height: 40px;
+  padding: 8px
+}
+
+.technology-card__info > h3 {
+  margin: 0;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)translateX(-50%);
 }

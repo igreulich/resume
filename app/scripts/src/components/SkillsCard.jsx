@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TechnologyCard from './TechnologyCard';
+
 export default React.createClass({
   displayName: 'Skills Card',
 
@@ -15,12 +17,12 @@ export default React.createClass({
     };
 
     const techList = (tech, index) => {
-      return (<span>tech</span>);
+      return (<TechnologyCard key={index} technology={tech} />);
     };
 
     return (
       <div>
-        <div id="slider" className="card detail-card">
+        <div className="card detail-card">
           <ul>
             {skills.map(skillList)}
           </ul>

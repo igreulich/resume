@@ -11,7 +11,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in a Khan Bhan workflow",
     "Version control system set up and maintenance, using Git"
   ],
-  technologies: [],
+  technologies: ['Javascript', 'React', 'Angular', 'Node', 'npm', 'Bower', 'Gulp', 'Grunt', 'Webpack', 'Less', 'CSS3', 'HTML5'],
   projects: [{
     title: "BoomTown LMS",
     description: "Lead managment system and contact relationship managment system for real estate brokers and agents"
@@ -32,7 +32,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in an Agile workflow",
     "Version control system set up and maintenance, using Git"
   ],
-  technologies: [],
+  technologies: ['Javascript', 'Backbone', 'Node', 'npm', 'Bower', 'Grunt', 'Express', 'Dust', 'Less', 'CSS3', 'HTML5'],
   projects: [{
     title: "Group Shopping",
     description: "Marketplace for a representative of a business to shop for group insurance plance to offer their employees"
@@ -54,7 +54,7 @@ export const experience = [{
     "Use Behavior and Test Driven Design principles, in an Agile workflow",
     "Version control system set up and maintenance, using Git"
   ],
-  technologies: [],
+  technologies: ['Ruby', 'Rails', 'Sinatra', 'Javascript', 'Coffeescript', 'Angular', 'Sass', 'CSS3', 'HTML5', 'MySQL', 'CouchDB'],
   projects: [{
     title: "EireneRx",
     description: "Medication Management and ePrescribing for the Elderly",
@@ -84,7 +84,7 @@ export const experience = [{
     "Manage Google Ad-Words campaigns",
     "Technical and 'How-to' document creation"
   ],
-  technologies: [],
+  technologies: ['Ruby', 'Rails', 'Javascript', 'Angular', 'React', 'node', 'npm', 'gulp', 'php', 'Wordpress', 'Sass', 'CSS3', 'HTML5', 'MySQL', 'CouchDB', 'Firebase'],
   projects: [{
     title: "Angular Character Limit",
     description: "Angularjs directive to limit the number of characters allowed in a text field",
@@ -137,7 +137,7 @@ export const experience = [{
     "Oversee development team, assign projects, and time-lines",
     "Coordinate projects across multiple vendors, both internal and external"
   ],
-  technologies: [],
+  technologies: ['Javascript', 'CSS3', 'HTML5'],
   projects: [{
     title: "The Post and Courier",
     description: "The Post and Courier Newspaper Website",
@@ -246,7 +246,7 @@ export const experience = [{
     "Technical and 'How-to' document creation",
     "Use MySQL data-store"
   ],
-  technologies: []}, {
+  technologies: ['php', 'Wordpress', 'CSS3', 'HTML5', 'MySQL']}, {
   employer: "University of South Carolina",
   link: '',
   location: "Columbia, SC",
@@ -259,7 +259,7 @@ export const experience = [{
     "Use MS SQL Server data-store",
     "Use Visual Studio Pro 2008 and Expressions Studio development environments"
   ],
-  technologies: [],
+  technologies: ['C#', 'ASP.Net', 'ASP.Net MVC', 'CSS3', 'HTML5', 'MSSQL'],
   projects: [{
     title: "Virtual Test Bed",
     description: "Virtual Test Bed; A Virtual Prototyping Solution for Large Scale, Multi-Disciplined Dynamic Systems",
