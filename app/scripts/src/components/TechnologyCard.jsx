@@ -4,7 +4,11 @@ export default React.createClass({
   displayName: 'Technology Card',
 
   render() {
-    const { technology } = this.props;
+    let { technology } = this.props;
+
+    if (technology === 'C#') {
+      technology = 'csharp';
+    }
 
     return (
       <a className="card card-link technology-card">
