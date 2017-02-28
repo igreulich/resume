@@ -13,7 +13,7 @@ export const experience = [{
     "Version control system setup and maintenance, using Git.",
     "Use PubNub pub/sub for real time updates."
   ],
-  technologies: ['Ruby', 'Rails', 'Sinatra', 'Javascript', 'Node', 'React', 'Angular', 'Babel', 'Webpack', 'Gulp', 'HTML5', 'CSS3', 'MySQL', 'CouchDB', 'Firebase'],
+  technologies: ['Ruby', 'Rails', 'Sinatra', 'Javascript', 'Node', 'React', 'Redux', 'React Router', 'Normalizr', 'Reselect', 'Babel', 'Webpack', 'Angular', 'Gulp', 'HTML5', 'CSS3', 'MySQL', 'CouchDB', 'Firebase'],
     projects: [{
       title: "Resume",
       description: "React app version of my resume",
@@ -81,7 +81,7 @@ export const experience = [{
     'Version control system setup and maintenance, using Git.',
     "Use PubNub pub/sub for real time updates."
   ],
-  technologies: ['Javascript', 'Node', 'React', 'Redux', 'React-Router', 'Normalizr', 'Reselect', 'Babel', 'Webpack', 'Gulp', 'HTML5', 'CSS3', 'Less', 'MySQL', 'CouchDB'],
+  technologies: ['Javascript', 'Node', 'React', 'Redux', 'React Router', 'Normalizr', 'Reselect', 'Babel', 'Webpack', 'Gulp', 'HTML5', 'CSS3', 'Less', 'MySQL', 'CouchDB'],
   projects: [{
     title: "Rhinogram",
     description: "Real time, two-way, HIPAA-compliant medical messaging app for small to medium-sized practices"
