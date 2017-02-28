@@ -4,6 +4,6 @@ export const languages = [{
   libraries: ["Rails", "Sinatra"]
 }, {
   name: "Javascript",
-  versions: ["ES5", "ES2015"],
+  versions: ["ES5", "ES6", "ES7"],
   libraries: ["Node", "React", "Angular", "Backbone", "Sencha Touch", "jQuery Mobile", "Gulp", "Babel", "Webpack"]
 }];

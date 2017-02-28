@@ -1,4 +1,95 @@
 export const experience = [{
+  employer: "Greulich Online",
+  link: '',
+  location: "Charleston, SC",
+  title: "Owner, Software Engineer",
+  start: "January 2008",
+  end: "Current",
+  skills: [
+    "Design, develop, implement, and maintain web applications, including user interface, user experience, data structure and storage, and api design.",
+    "Use Ruby, Javascript (ES6 and beyond with the help of Babel and Webpack), HTML/HAML, CSS/SASS/ LESS languages and markup.",
+    "Use Rails, React (including Redux, React Router, Normailizr, and Reselect), Angularjs, jQuery, libraries and frameworks.",
+    "Use MySQL, PostgreSQL, Couch, Mongo, Firebase data-stores.",
+    "Version control system setup and maintenance, using Git.",
+    "Use PubNub pub/sub for real time updates."
+  ],
+  technologies: ['Ruby', 'Rails', 'Sinatra', 'Javascript', 'Node', 'React', 'Angular', 'Babel', 'Webpack', 'Gulp', 'HTML5', 'CSS3', 'MySQL', 'CouchDB', 'Firebase'],
+    projects: [{
+      title: "Resume",
+      description: "React app version of my resume",
+      link: "http://resume.greulich.me"
+  }, {
+    title: "Angular Character Limit",
+    description: "Directive to limit the number of characters allowed in a text field",
+    link: "http://igreulich.github.io/angular-charlimit"
+  }, {
+    title: "Angular Truncate",
+    description: "Filter to truncate strings",
+    link: "http://igreulich.github.io/angular-truncate"
+  }, {
+    title: "Angular Typeahead",
+    description: "Directive to use Twitter's Bootstrap Typeahead plugin",
+    link: "http://igreulich.github.io/angular-typeahead"
+  }, {
+    title: "Sing",
+    description: "Rails-like generator for Sinatra apps",
+    link: "http://igreulich.github.io/sing"
+  }, {
+    title: "Ticket to Ride Counter",
+    description: "A point calculator for the Ticket to Ride boardgame",
+    link: "http://www.t2r-counter.com"
+  }, {
+    title: "Kardashian Counter",
+    description: "Kardasian anniversary calculator",
+    link: "http://kanniversary.greulich.me"
+  }, {
+    title: "Book",
+    description: "React/Firebase app list of all the books I own, Github as Oauth provider (v2 under construction)",
+    link: "http://books.greulich.me"
+  }, {
+    title: "Games",
+    description: "React/Firebase app list of all the boardgames I own, Github as Oauth provider",
+    link: "http://games.greulich.me"
+  }, {
+    title: "Tim Larkin for Congress",
+    description: "Campaign website for Tim Larkin for Congress",
+    link: "https://larkin-congress.herokuapp.com"
+  }, {
+    title: "Rhinostyle (contributor)",
+    description: "UI kit for Rhinogram apps",
+    link: "https://rhinogram.github.io/rhinostyle"
+  }, {
+    title: "Boomstrap (contributor)",
+    description: "UI kit for Boomtown apps",
+    link: "https://boomtownroi.github.io/boomstrap"
+  }, {
+    title: "Boomstrap React (contributor)",
+    description: "React based UI kit for Boomtown apps",
+    link: "https://boomtownroi.github.io/boomstrap-react/#"
+  }]
+}, {
+  employer: "Rhinogram",
+  link: "https://www.rhinogram.com",
+  location: "Charleston, SC",
+  title: "Principal Software Engineer",
+  start: "February 2016",
+  end: "February 2017",
+  skills: [
+    'Design, develop, implement HIPAA compliant, real-time, two way medical messaging application, focusing on api design, user interface, and user experience.',
+    'Use JavaScript (ES6, and beyond with the help of Babel and Webpack), React (Redux, React-Router, Reselect, Normailzer), Less, and HTML/CSS languages, markup and frameworks.',
+    'Use Behavior and TDD principles, in a Khan Bhan workflow.',
+    'Version control system setup and maintenance, using Git.',
+    "Use PubNub pub/sub for real time updates."
+  ],
+  technologies: ['Javascript', 'Node', 'React', 'Redux', 'React-Router', 'Normalizr', 'Reselect', 'Babel', 'Webpack', 'Gulp', 'HTML5', 'CSS3', 'Less', 'MySQL', 'CouchDB'],
+  projects: [{
+    title: "Rhinogram",
+    description: "Real time, two-way, HIPAA-compliant medical messaging app for small to medium-sized practices"
+  }, {
+    title: "Rhinostyle",
+    description: "React based UI kit for all Rhinogram apps, internal and external"
+  }]
+}, {
   employer: "BoomTown",
   link: "http://www.boomtownroi.com",
   location: "Charleston, SC",
@@ -6,19 +97,23 @@ export const experience = [{
   start: "July 2014",
   end: "February 2016",
   skills: [
-    "Design, develop, implement real estate web applications, focusing on user interface, user experience",
-    "Use JavaScript, Angular, jQuery Mobile, Mustache, Less, and HTML/CSS languages, markup and frameworks",
-    "Use Behavior and Test Driven Design principles, in a Khan Bhan workflow",
-    "Version control system set up and maintenance, using Git"
+    "Design, develop, and implement real estate web applications, focusing on user interface, and user experience.",
+    "Use Javascript (ES6 with the help of Babel and Webpack), React (Redux, React-Router, Flux), Angular, jQuery Mobile, Mustache, Less, and HTML/CSS languages, markup and frameworks.",
+    "Use Behavior and TDD principles, in a Khan Bhan workflow.",
+    "Version control system setup and maintenance, using Git."
   ],
-  technologies: ['Javascript', 'React', 'Angular', 'Node', 'npm', 'Bower', 'Gulp', 'Grunt', 'Webpack', 'Less', 'CSS3', 'HTML5'],
+  technologies: ['Javascript', 'React', 'Angular', 'Node', 'Bower', 'Gulp', 'Grunt', 'Webpack', 'Less', 'CSS3', 'HTML5'],
   projects: [{
     title: "BoomTown LMS",
     description: "Lead managment system and contact relationship managment system for real estate brokers and agents"
   }, {
     title: "Boomstrap",
-    description: "Bootstrap based component and pattern library"
-  }]}, {
+    description: "UI kit for Boomtown apps"
+  }, {
+    title: " Boomstrap React",
+    description: "React based UI kit for Boomtown apps"
+  }]
+}, {
   employer: "Benefitfocus",
   link: '',
   location: "Charleston, SC",
@@ -26,11 +121,10 @@ export const experience = [{
   start: "September 2013",
   end: "June 2014",
   skills: [
-    "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience, and Administration",
-    "Implement carrier specific private label branding to white lable platform applications",
-    "Use JavaScript, Nodejs, Backbonejs, Dustjs, Less, and HTML/CSS languages, markup and frameworks",
-    "Use Behavior and Test Driven Design principles, in an Agile workflow",
-    "Version control system set up and maintenance, using Git"
+    "Design, develop, implement HIPAA compliant web applications, focusing on user interface, and user experience.",
+    "Use JavaScript, Backbone, Dustjs, Less, and HTML/CSS languages, markup and frameworks.",
+    "Use Behavior and TDD principles, in a Khan Bhan workflow.",
+    "Version control system setup and maintenance, using Git."
   ],
   technologies: ['Javascript', 'Backbone', 'Node', 'npm', 'Bower', 'Grunt', 'Express', 'Dust', 'Less', 'CSS3', 'HTML5'],
   projects: [{
@@ -39,7 +133,11 @@ export const experience = [{
   }, {
     title: "eDirect",
     description: "Marketplace for an individual to purchase private insurance direct from carriers, or ACA complaint marketplace"
-  }]}, {
+  }, {
+    title: "UIKit",
+    description: "Dustjs based UI kit for all Benefitfocus apps"
+  }]
+}, {
   employer: "Jack Russell Software",
   link: '',
   division: "CareKinesis",
@@ -48,11 +146,11 @@ export const experience = [{
   start: "December 2011",
   end: "August 2013",
   skills: [
-    "Design, develop, implement HIPPA-compliant healthcare web applications, including User Interface, User Experience, Data Storage, and Administration",
-    "Use Ruby, Ruby on Rails, HAML/SASS, CoffeeScript, JavaScript, AngularJS, and HTML/CSS languages, markup and frameworks",
-    "MySQL, CouchDB, MongoDB data-stores",
-    "Use Behavior and Test Driven Design principles, in an Agile workflow",
-    "Version control system set up and maintenance, using Git"
+    "Design, develop,and implement HIPPA-compliant healthcare web applications, focusing on user interface, user experience, data storage, and administration.",
+    "Use Ruby, Rails, HAML/SASS, Coffeescript, Javascript, AngularJS, and HTML/CSS languages, markup and frameworks.",
+    "Use MySQL, CouchDB, MongoDB data-stores.",
+    "Use Behavior and TDD principles, in an Agile workflow.",
+    "Version control system setup and maintenance, using Git."
   ],
   technologies: ['Ruby', 'Rails', 'Sinatra', 'Javascript', 'Coffeescript', 'Angular', 'Sass', 'CSS3', 'HTML5', 'MySQL', 'CouchDB'],
   projects: [{
@@ -68,56 +166,8 @@ export const experience = [{
   }, {
     title: "CareTransitions",
     description: "Patient Care Transition Management",
-  }]}, {
-  employer: "Greulich Online",
-  link: '',
-  location: "Charleston, SC",
-  title: "Web Developer/Owner",
-  start: "January 2008",
-  end: "Current",
-  skills: [
-    "Design, develop, implement, and maintain web sites and web applications, including User Interface, User Experience, Data Storage, and Administration",
-    "Use Ruby, HTML/HAML, SASS/CSS, Coffeescript/JavaScript, PHP, ASP.Net, C# and Java Server Pages (JSP) languages and markup",
-    "Use Rails, Nodejs, Angularjs, Backbonejs, jQuery, jQuery-ui, Underscore libraries and frameworks",
-    "Use MySQL, PostgreSQL, and MS SQL Server 2005 data-stores",
-    "Design and develop Wordpress themes and plug-ins",
-    "Manage Google Ad-Words campaigns",
-    "Technical and 'How-to' document creation"
-  ],
-  technologies: ['Ruby', 'Rails', 'Javascript', 'Angular', 'React', 'node', 'npm', 'gulp', 'php', 'Wordpress', 'Sass', 'CSS3', 'HTML5', 'MySQL', 'CouchDB', 'Firebase'],
-  projects: [{
-    title: "Angular Character Limit",
-    description: "Angularjs directive to limit the number of characters allowed in a text field",
-    link: "http://igreulich.github.io/angular-charlimit/"
-  }, {
-    title: "Angular Truncate",
-    description: "An angular filter to truncate strings.",
-    link: "http://igreulich.github.io/angular-truncate/"
-  }, {
-    title: "Angular Typeahead",
-    description: "Angularjs directive to use Twitter's Bootstrap Typeahead plugin",
-    link: "http://igreulich.github.io/angular-typeahead/"
-  }, {
-    title: "Ticket to Ride Counter",
-    description: "A point calculator for the Ticket to Ride boardgame",
-    link: "http://www.t2r-counter.com/"
-  }, {
-    title: "Kardashian Counter",
-    description: "Kardasian anniversary calculator",
-    link: "https://kardashian-anniversary.heroku.com/"
-  }, {
-    title: "Sing",
-    description: "Rails-like generator for Sinatra apps",
-    link: "http://igreulich.github.io/sing/"
-  }, {
-    title: "Sports Bingo",
-    description: "A sports based, and themed, real-time bingo game",
-    link: "http://playsportsbingo.com/"
-  }, {
-    title: "Tim Larkin for Congress",
-    description: "Campaign website for Tim Larkin for Congress",
-    link: "https://larkin-congress.herokuapp.com/"
-  }]}, {
+  }]
+}, {
   employer: "Evening Post Interactive",
   link: '',
   division: "Evening Post Publishing, The Post and Courier",
@@ -230,7 +280,8 @@ export const experience = [{
     title: "The Clemmons Courier",
     description: "The Clemmons Courier Website",
     link: "http://www.clemmonscourier.net/"
-  }]}, {
+  }]
+}, {
   employer: "Leveraged Media",
   link: '',
   location: "Columbia, SC",
@@ -246,7 +297,8 @@ export const experience = [{
     "Technical and 'How-to' document creation",
     "Use MySQL data-store"
   ],
-  technologies: ['php', 'Wordpress', 'CSS3', 'HTML5', 'MySQL']}, {
+  technologies: ['php', 'Wordpress', 'CSS3', 'HTML5', 'MySQL']
+}, {
   employer: "University of South Carolina",
   link: '',
   location: "Columbia, SC",
@@ -264,5 +316,5 @@ export const experience = [{
     title: "Virtual Test Bed",
     description: "Virtual Test Bed; A Virtual Prototyping Solution for Large Scale, Multi-Disciplined Dynamic Systems",
     link: "http://vtb.engr.sc.edu/vtbwebsite/#/Overview"
-  }]}
-];
+  }]
+}];
